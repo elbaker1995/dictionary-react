@@ -1,6 +1,25 @@
 .dictionarySearch {
-  background: rgb(68, 28, 28, 0.5);
+  background: var(--primaryColor);
   color: white;
   padding: 15px;
   margin: 10px auto;
+  box-shadow: 1px 1px 1px rgba(1, 21, 31, 0.247);
+}
+
+h1 {
+  font-family: var(--headingFont);
+  font-weight: 600;
+  font-size: 40px;
+  margin: 5px auto;
+  text-shadow: 8px 2px 2px rgba(1, 21, 31, 0.247);
+}
+
+.searchBar {
+  background: white;
+  border: 1px transparent;
+  border-radius: 1px;
+  font-family: var(--textFont);
+  font-size: 16px;
+  box-shadow: 2px 2px 2px rgba(1, 21, 31, 0.247);
+  width: 80%;
 }

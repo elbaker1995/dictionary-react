@@ -1,0 +1,10 @@
+:root {
+  --primaryColor: rgb(5, 86, 124);
+  --secondayColor: rgb(1, 21, 31);
+  --headingFont: "Lora", serif;
+  --textFont: "Inter", sans-serif;
+}
+
+p {
+  font-family: var(--textFont);
+}
