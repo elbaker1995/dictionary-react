@@ -1,11 +1,12 @@
 import React from "react";
 import Definition from "./Definition";
 import Phonetic from "./Phonetic";
+import "./Definition-results.css";
 
 export default function DefinitionResults(props) {
   if (props.results) {
     return (
-      <div>
+      <div className="results">
         <h2>{props.results.word}</h2>
         {props.results.phonetics.map(function (phonetic, index) {
           return (
@@ -24,12 +25,7 @@ export default function DefinitionResults(props) {
         })}
 
         {/* 
-        
-        <ul>
-          <li>nightfall</li>
-          <li>twilight</li>
-          <li>dusk</li>
-        </ul>
+       
         <img src="./image/sunset.jpg" alt="sunset" />
         <img src="./image/sunset.jpg" alt="sunset" />
         <img src="./image/sunset.jpg" alt="sunset" />

@@ -14,7 +14,21 @@ function App() {
               target="blank"
               className="icon"
             >
-              <i className="fab fa-github-square"></i>
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eleanorbaker5595/"
+              target="blank"
+              className="icon"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/elb_5/"
+              target="blank"
+              className="icon"
+            >
+              <i class="fab fa-instagram"></i>
             </a>
           </p>
         </footer>

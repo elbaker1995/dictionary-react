@@ -10,11 +10,10 @@ export default function Phonetic(props) {
   if (props.phonetic) {
     return (
       <div className="Phonetic">
-        <span className="Phonetic-text">{props.phonetic.text}</span>
-        <br />{" "}
-        <button type="button" className="Phonetic-button" onClick={handleClick}>
-          Listen
+        <button type="button" className="PhoneticButton" onClick={handleClick}>
+          <i className="fas fa-volume-up"></i>
         </button>
+        <span className="PhoneticText"> {props.phonetic.text}</span>
       </div>
     );
   } else {
