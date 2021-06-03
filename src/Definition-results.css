@@ -29,6 +29,12 @@ h2 {
   text-transform: uppercase;
 }
 
+.PhoneticButton:hover {
+  color: white;
+  background: var(--secondayColor);
+  border: 1px solid var(--secondayColor);
+}
+
 .PhoneticText {
   color: white;
   font-size: 15px;

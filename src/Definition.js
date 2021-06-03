@@ -9,7 +9,6 @@ export default function Definition(props) {
         return (
           <div key={index}>
             <p className="definition-definition">{definition.definition}</p>
-            <br />
             <em className="definition-example">"{definition.example}"</em>
             <Synonyms synonyms={definition.synonyms} />
           </div>

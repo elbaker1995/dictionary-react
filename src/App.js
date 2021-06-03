@@ -1,5 +1,6 @@
-import "./App.css";
 import Dictionary from "./Dictionary";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 
 function App() {
   return (
@@ -14,21 +15,21 @@ function App() {
               target="blank"
               className="icon"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/eleanorbaker5595/"
               target="blank"
               className="icon"
             >
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
             <a
               href="https://www.instagram.com/elb_5/"
               target="blank"
               className="icon"
             >
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </p>
         </footer>

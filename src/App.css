@@ -32,3 +32,9 @@ footer {
   line-height: 20px;
   padding: 3px 4px;
 }
+
+.icon:hover {
+  color: white;
+  background: var(--secondayColor);
+  border: 1px solid var(--secondayColor);
+}
