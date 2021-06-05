@@ -7,7 +7,7 @@ export default function DefinitionResults(props) {
   if (props.results) {
     return (
       <div className="results">
-        <h2>{props.results.word}</h2>
+        <p className="WordSearched">{props.results.word}</p>
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
@@ -23,17 +23,6 @@ export default function DefinitionResults(props) {
             </div>
           );
         })}
-
-        {/* 
-       
-        <img src="./image/sunset.jpg" alt="sunset" />
-        <img src="./image/sunset.jpg" alt="sunset" />
-        <img src="./image/sunset.jpg" alt="sunset" />
-        <img src="./image/sunset.jpg" alt="sunset" />
-        <img src="./image/sunset.jpg" alt="sunset" />
-        <img src="./image/sunset.jpg" alt="sunset" />
-
-        <p>Learn more at the official page</p> */}
       </div>
     );
   } else {

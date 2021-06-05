@@ -1,8 +1,9 @@
 :root {
   --primaryColor: #282323;
-  --secondayColor: #f65282;
+  --secondayColor: #229fa8;
+  --textColor: #f1f4f5;
   --textFont: "Montserrat", sans-serif;
-  --buttonFont: "Roboto", sans-serif;
+  --secondayFont: "Roboto", sans-serif;
 }
 
 body {
@@ -14,19 +15,23 @@ body {
 
 footer {
   background-color: var(--primaryColor);
-  color: white;
-  font-family: var(--buttonFont);
+  color: var(--textColor);
+  font-family: var(--secondayFont);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 5px;
+  margin-top: 7px;
+}
+
+p {
+  padding: 7px;
 }
 
 .icon {
   margin-left: 5px;
-  background: white;
-  border: 1px solid white;
-  border-radius: 50px;
+  background: var(--textColor);
+  border: 1px solid var(--textColor);
+  border-radius: 60px;
   color: var(--primaryColor);
   font-size: 11px;
   line-height: 20px;
@@ -34,7 +39,27 @@ footer {
 }
 
 .icon:hover {
-  color: white;
+  color: var(--textColor);
   background: var(--secondayColor);
   border: 1px solid var(--secondayColor);
+}
+
+.portfolioLink {
+  color: var(--secondayColor);
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  color: var(--textColor);
+  background-color: var(--secondayColor);
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 400px;
+  }
+
+  p {
+    text-align: center;
+  }
 }

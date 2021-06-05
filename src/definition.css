@@ -1,0 +1,63 @@
+.Definition h3 {
+  color: var(--secondayColor);
+  font-family: var(--textFont);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.definition-results .definition-definition,
+.definition-results .definition-example,
+.Synonyms li {
+  font-family: var(--textFont);
+  font-size: 13px;
+  text-align: left;
+}
+
+.Definition .definition-definition {
+  margin: 0 auto;
+}
+
+.Definition .definition-example {
+  padding-left: 30px;
+}
+
+.Synonyms {
+  padding: 5px;
+}
+
+.Synonyms li {
+  font-family: var(--textFont);
+  font-size: 13px;
+  display: inline;
+  list-style: none;
+  padding-right: 10px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .Definition h3 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .definition-results {
+    padding: 5px;
+  }
+
+  .definition-results .definition-definition,
+  .definition-results .definition-example {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .Synonyms {
+    margin: 0;
+  }
+
+  .Synonyms li {
+    font-size: 10px;
+    padding-right: 5px;
+  }
+}

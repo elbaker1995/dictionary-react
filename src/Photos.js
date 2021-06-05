@@ -1,5 +1,4 @@
 import React from "react";
-import "./Photo.css";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -8,7 +7,7 @@ export default function Photos(props) {
         <div className="row">
           {props.photos.map(function (photos, index) {
             return (
-              <div className="col-4 p-2" key={index}>
+              <div className="col-lg-4 p-2" key={index}>
                 <a href={photos.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photos.src.landscape}

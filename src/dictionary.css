@@ -2,9 +2,9 @@
   padding: 5px;
 }
 
-h1 {
+.dictionarySearch h1 {
   background: var(--primaryColor);
-  color: white;
+  color: var(--textColor);
   font-family: var(--textFont);
   font-weight: 700;
   font-size: 64px;
@@ -16,11 +16,11 @@ h1 {
 }
 
 .searchBar {
-  background: white;
-  border: 1px solid white;
+  background: var(--textColor);
+  border: 1px solid var(--textColor);
   border-radius: 50px;
   color: var(--primaryColor);
-  font-family: var(--buttonFont);
+  font-family: var(--secondayFont);
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -29,4 +29,20 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .dictionarySearch h1 {
+    font-size: 38px;
+    line-height: 36px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .searchBar {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+  }
 }

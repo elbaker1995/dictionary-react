@@ -42,6 +42,7 @@ export default function Dictionary() {
           <input
             className="searchBar"
             type="search"
+            placeholder="Search"
             onChange={handleKeywordChange}
           />
         </form>

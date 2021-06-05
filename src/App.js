@@ -9,7 +9,14 @@ function App() {
         <Dictionary />
         <footer>
           <p>
-            Coded by Eleanor Baker{" "}
+            Coded by{" "}
+            <a
+              href="https://github.com/elbaker1995/dictionary-react"
+              target="blank"
+              className="portfolioLink"
+            >
+              Eleanor Baker
+            </a>{" "}
             <a
               href="https://github.com/elbaker1995/dictionary-react"
               target="blank"
@@ -30,6 +37,13 @@ function App() {
               className="icon"
             >
               <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://objective-haibt-b80dac.netlify.app/"
+              target="blank"
+              className="icon"
+            >
+              <i class="fas fa-cloud-sun"></i>
             </a>
           </p>
         </footer>

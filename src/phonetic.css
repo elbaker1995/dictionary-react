@@ -1,0 +1,35 @@
+.PhoneticButton {
+  background: var(--textColor);
+  border: 1px solid var(--textColor);
+  border-radius: 50px;
+  color: var(--primaryColor);
+  font-family: var(--secondayFont);
+  font-size: 11px;
+  line-height: 20px;
+  padding: 3px 7px;
+  margin-bottom: 5px;
+}
+
+.PhoneticButton:hover {
+  color: var(--textColor);
+  background: var(--secondayColor);
+  border: 1px solid var(--secondayColor);
+}
+
+.PhoneticText {
+  color: var(--textColor);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  .PhoneticButton {
+    font-size: 9px;
+    padding: 1px 6px;
+  }
+  .Phonetic span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
