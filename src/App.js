@@ -11,7 +11,7 @@ function App() {
           <p>
             Coded by{" "}
             <a
-              href="https://github.com/elbaker1995/dictionary-react"
+              href="https://thirsty-meitner-3450ed.netlify.app/#"
               target="blank"
               className="portfolioLink"
             >
@@ -43,7 +43,7 @@ function App() {
               target="blank"
               className="icon"
             >
-              <i class="fas fa-cloud-sun"></i>
+              <i className="fas fa-cloud-sun"></i>
             </a>
           </p>
         </footer>
